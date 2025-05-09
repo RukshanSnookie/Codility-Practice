@@ -10,5 +10,18 @@ public class BinaryGapsTest {
 		BinaryGaps bGaps = new BinaryGaps();
 		assertEquals(5, bGaps.solution(1041));
 	}
+	
+	@Test
+	public void testSample2() {
+		BinaryGaps bGaps = new BinaryGaps();
+		assertEquals(4, bGaps.solution(529));
+	}
+	
+	
 
 }
+
+
+
+//4 > 529
+//0 > 32
