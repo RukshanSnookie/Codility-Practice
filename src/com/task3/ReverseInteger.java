@@ -9,12 +9,11 @@ public class ReverseInteger {
 		
 		while (number !=0) {
 			lastDigit = number % 10; // using % to get last digit
-			System.out.println(lastDigit);
 			reversedNum = (reversedNum*10)+ lastDigit ; // storing last digit in the variable
 			number = number / 10;
 		}
 		
-		
+		System.out.println(reversedNum);
 		return reversedNum;
 	}
 }
